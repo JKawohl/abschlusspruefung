@@ -34,7 +34,7 @@ Themen:
 - [ ] Snapshots
 - [ ] S.M.A.R.T. tools
 - [ ] SSD vs HDD
-- [ ]
+- [ ] 
 
 ##Virtualisierung
 - [ ] Hosted vs. Baremetal Virtualisierung
