@@ -118,4 +118,21 @@ http://www.bueffelcoach.de/IHK-IT-Berufe/LF01_WiSo_VWL.PDF
 In einer Marktwirtschaft erfolgt die Verteilung der Güter und Produktionsfaktoren über Märkte und dort über den  Preismechanismus.
 Die Hauptfunktion des Preises ist die Lenkungsfunktion. Er bestimmt die Effizienteste Verwendung der Produktionsfaktoren.
 
-## Marktwitrschaft
+* *Marktwirtschaft*
+* Freie Marktwirtschaft: Der staat greift nicht in den Markt ein.
+* Soziale Marktwirtschaft: Der Staat greift in die Wirtschaft ein um die Bürger zu schützen und auch bedürftigen Einkommen zu verschaffen.
+
+###Bedürfnis, Bedarf,Gut*
+* Gut: Ein Mittel zur Bedürfnisbefriedigung
+* Bedürfnis: Ein Gefühl des Mangels 
+* Bedarf: Mit Kaufkraft verbundene Bedürfnisse
+
+* *Substitutionsgut*: Ersatzgut Samsung oder Toshiba Notebook Wenn der Preis von Fisch steigt, verändert sich die Nachfrage nach Fleisch? Sie nimmt zu weil Fleisch durch Fisch substituiert wird.
+*  *Komplementärgut*: Ergänzungsgüter: z.B. Autos und Benzin Wenn der Preis für Autos steigt, verändert sich die Nachfrage nach Benzin? Sie nimmt ab wenn weniger Autos gekauft werden, wird auch weniger Benzin gekauft
+
+###Ökonomisches Prinzip: 
+*Maximalprinzip: Mit gegebenen Mitteln den höchstmöglichen Wert erzielen
+
+*Minimalprinzip:Gegebnes Ziel soll mit möglichst wenig Mitteln erreicht werden.
+    
+
