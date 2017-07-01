@@ -2,11 +2,13 @@ Offline USV
 
 Einsatzbereich
 
+
+- Für: Einfache Gertäte
+
 - Normalbetrieb: Strom wird direkt an Gerät geleitet, Batterie wird geladen
 
 - Ausfall / Überspannung / Unterspannung: Batteriebetrieb
 
-- Für: Einfache Gertäte
 
 Kosten
 
@@ -24,11 +26,11 @@ Netzinteraktive USV
 
 Einsatzbereich
 
--Einzelen Computer und kleine Netzwerke
+- Einzelen Computer und kleine Netzwerke
 
 Kosten
 
--Mittleres Preissegment
+- Mittleres Preissegment
 
 Umschaltzeiten
 
