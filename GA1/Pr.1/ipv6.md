@@ -1,46 +1,51 @@
-/64 = von 128 sind 64 netz und 64 hosts
+What is /64 in ipv6?
 
-2 hoch 64 = 18 mal 10 hoch 6
+- /64 = von 128 bits sind 64 netz und 64 hosts
 
-regel /64 = autoconfig ipv6
+- 2 hoch 64 = 18 mal 10 hoch 6
 
-privacy = hide psysical adress. off for open internet
+- regel /64 = autoconfig ipv6
+-----
+What is privacy?
 
+- privacy = hide psysical adress. off for open internet
+-----
+How to get from physical address to link local?
 
-von phy auf link local (fe80)
+Example:
 
-D4 AE 52 32 52 F7
+physical address: D4 AE 52 32 52 F7
 
-FE FF IN DIE MITTE EINFÜGEN
+- "FE FF" put in the middle
 
-D4 AE 52 FF FE 32 52 F7
+- D4 AE 52 **FF FE** 32 52 F7
 
-D4 in dual = D = A 10 B 11 C 12 D 13
+- D4 in dual = D = A 10 B 11 C 12 **D 13**
 
-13 IN DUAL = 0000 =0 1000=8 1100=12 1101=13
+- 13 IN DUAL = 0000 =0 1000=8 1100=12 **1101=13**
 
-4 IN DUAL = 0100 = 4
+- 4 IN DUAL = 0100 = 4
 
-D4 IN DUAL = 1101 0100 
+- D4 IN DUAL = 1101 0100 
 
-ZWEITES BIT VON RECHTS INVERTIEREN
+- Invert second bit from the right
 
-1101 0100 => 1101 0110
+- 1101 0100 => 1101 0110
 
-IN HEX = D 6
+- IN HEX = D 6
 
-D6
+- D6
 
-IN HEX EINFÜGEN
+- Insert in physical address
 
-D6 AE 52 FF FE 32 52 F7
+- D6 AE 52 FF FE 32 52 F7
 
-IN IPV6 SCHREIBEN
+- Write in ipv6 syntax
 
-D6AE:52FF:FE32:52F7
+- D6AE:52FF:FE32:52F7
 
-LINK LOCAL
+- LINK LOCAL
 
-FE 80 EINFÜGEN
+- Insert FE80
 
-FE80:D6AE:52FF:FE32:52F7
+- FE80:D6AE:52FF:FE32:52F7
