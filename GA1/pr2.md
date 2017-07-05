@@ -33,6 +33,8 @@ Lösung
 4 Subnetze a 62 möglichen Host, weil /24 kann man mit 4 sub, in 62 verteilen. siehe bild.
 Netz: 192.168.33.0 / 24
 
+Meine Rechnung
+
 
 Produktion 50 ip + router = 51 = 64 näheste 2er Potenz = 2 hoch 6
 
@@ -63,6 +65,8 @@ Sprache wird in digitale Signale, in Packete zerteilt, und via Internet verschic
 
 Server = verbindet auch bei dyn IP die Sender + Empfänger. Protokoll = RDP auf UDP aufsetzt.
 
+Zb Skype / Hangouts / Lync
+
 -----
 
 ### b) 
@@ -73,7 +77,7 @@ Software Softphone
 
 Gerät Analog-Telefon-Adapter
 
-Telefon Voip Telefn
+Telefon Voip Telefon
 
 Telefonanlage IP PBX
 
@@ -84,6 +88,8 @@ Telefonanlage IP PBX
 VOIP braucht nur die Packete zu senden - Einseitige kommunikation - einsparung vom Netzwerkverkehr + Geschwindigkeitsgewinn
 
 Quality of Service = TCP - schlechte Qualität. Weil bei fehlern nochmal nachgefragt wird. Sprache - echtzeitanwendung.
+
+UDP sendet nur, TCP sendet und empfängt. 
 
 
 ------ 
@@ -145,6 +151,21 @@ Einfachster - Packet
 
 
 
+erklärung - Packet Filter
+
+Paketfilter (auch Portfilter) stellen die einfachste Variante einer Firewall dar. Hierbei wird immer der Header der einzelnen Protokolle (IP-Header, ICMP-Header, TCP-Header, UDP-Header) überprüft und in Abhängigkeit der eingestellten Filter-Regeln verarbeitet
+
+Application Layer
+
+Das Application Level Firewall wird in den Datenstrom zwischen Client und Server geschaltet und "spielt" in Richtung Client den Server und stellt gegenüber dem Server den Client da. Für jeden TCP-Dienst wird daher ein eigenes Programm (der sog. Proxy) benötigt!
+
+
+Stateful
+
+
+ in der Lage, sich die aktuellen Status- und Kontextinformationen zu merken bzw. diese bei der Filterung zu berücksichtigen.
+
+
 
 -------------
 
@@ -184,6 +205,8 @@ Endgeräte automatisch konfiguriert
 -----
 
 ### b)
+
+
 Richtige Aussagen
 
 Default Gateway
